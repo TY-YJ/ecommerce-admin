@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.39.0" timestamp="2023-01-20T22:24:59.928">
+<file name="/Users/taeyoonkim/Desktop/NEU/CS5004/Assignment1/src/main/java/problem1/Credentials.java">
+<violation beginline="18" endline="18" begincolumn="41" endcolumn="59" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem1" class="Credentials" method="Credentials" variable="passwordHash" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'passwordHash' is not assigned and could be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="24" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem1" class="Credentials" method="Credentials" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'username' is not assigned and could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="29" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem1" class="Credentials" method="setUsername" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'username' is not assigned and could be declared final
+</violation>
+<violation beginline="51" endline="51" begincolumn="33" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem1" class="Credentials" method="setPasswordHash" variable="passwordHash" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'passwordHash' is not assigned and could be declared final
+</violation>
+</file>
+<file name="/Users/taeyoonkim/Desktop/NEU/CS5004/Assignment1/src/main/java/problem1/User.java">
+<violation beginline="7" endline="115" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="problem1" class="User" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like User
+</violation>
+<violation beginline="23" endline="23" begincolumn="93" endcolumn="118" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem1" class="User" method="User" variable="credentialPair" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'credentialPair' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="72" endcolumn="90" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem1" class="User" method="User" variable="emailAddress" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'emailAddress' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="17" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem1" class="User" method="User" variable="firstName" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'firstName' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="35" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem1" class="User" method="User" variable="lastName" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'lastName' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="52" endcolumn="69" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem1" class="User" method="User" variable="phoneNumber" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'phoneNumber' is not assigned and could be declared final
+</violation>
+<violation beginline="43" endline="43" begincolumn="30" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem1" class="User" method="setFirstName" variable="firstName" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'firstName' is not assigned and could be declared final
+</violation>
+<violation beginline="58" endline="58" begincolumn="29" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem1" class="User" method="setLastName" variable="lastName" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'lastName' is not assigned and could be declared final
+</violation>
+<violation beginline="73" endline="73" begincolumn="32" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem1" class="User" method="setPhoneNumber" variable="phoneNumber" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'phoneNumber' is not assigned and could be declared final
+</violation>
+<violation beginline="79" endline="79" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="problem1" class="User" method="setPhoneNumber" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="96" endline="96" begincolumn="33" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem1" class="User" method="setEmailAddress" variable="emailAddress" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'emailAddress' is not assigned and could be declared final
+</violation>
+<violation beginline="112" endline="112" begincolumn="35" endcolumn="60" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem1" class="User" method="setCredentialPair" variable="credentialPair" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'credentialPair' is not assigned and could be declared final
+</violation>
+</file>
+<file name="/Users/taeyoonkim/Desktop/NEU/CS5004/Assignment1/src/main/java/problem2/Delivery.java">
+<violation beginline="9" endline="9" begincolumn="18" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="problem2" class="Delivery" variable="startTime" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="10" endline="10" begincolumn="18" endcolumn="24" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="problem2" class="Delivery" variable="endTime" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="22" endline="22" begincolumn="46" endcolumn="63" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem2" class="Delivery" method="Delivery" variable="endLocation" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'endLocation' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="82" endcolumn="93" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem2" class="Delivery" method="Delivery" variable="endTime" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'endTime' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="66" endcolumn="79" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem2" class="Delivery" method="Delivery" variable="startTime" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'startTime' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="21" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem2" class="Delivery" method="Delivery" variable="startingLocation" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'startingLocation' is not assigned and could be declared final
+</violation>
+<violation beginline="41" endline="41" begincolumn="37" endcolumn="59" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem2" class="Delivery" method="setStartingLocation" variable="startingLocation" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'startingLocation' is not assigned and could be declared final
+</violation>
+<violation beginline="57" endline="57" begincolumn="32" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem2" class="Delivery" method="setEndLocation" variable="endLocation" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'endLocation' is not assigned and could be declared final
+</violation>
+<violation beginline="81" endline="81" begincolumn="9" endcolumn="78" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="problem2" class="Delivery" method="getDuration" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'duration' could be declared final
+</violation>
+<violation beginline="82" endline="82" begincolumn="9" endcolumn="24" rule="UnnecessaryLocalBeforeReturn" ruleset="Code Style" package="problem2" class="Delivery" method="getDuration" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#unnecessarylocalbeforereturn" priority="3">
+Consider simply returning the value vs storing it in local variable 'duration'
+</violation>
+</file>
+<file name="/Users/taeyoonkim/Desktop/NEU/CS5004/Assignment1/src/main/java/problem2/Time.java">
+<violation beginline="6" endline="104" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="problem2" class="Time" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Time
+</violation>
+<violation beginline="10" endline="10" begincolumn="23" endcolumn="34" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="problem2" class="Time" variable="HOUR_PER_DAY" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="10" endline="10" begincolumn="23" endcolumn="34" rule="FieldNamingConventions" ruleset="Code Style" package="problem2" class="Time" variable="HOUR_PER_DAY" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The final field name 'HOUR_PER_DAY' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="11" endline="11" begincolumn="23" endcolumn="34" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="problem2" class="Time" variable="MIN_PER_HOUR" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="23" endcolumn="34" rule="FieldNamingConventions" ruleset="Code Style" package="problem2" class="Time" variable="MIN_PER_HOUR" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The final field name 'MIN_PER_HOUR' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="12" endline="12" begincolumn="23" endcolumn="33" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="problem2" class="Time" variable="SEC_PER_MIN" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="12" endline="12" begincolumn="23" endcolumn="33" rule="FieldNamingConventions" ruleset="Code Style" package="problem2" class="Time" variable="SEC_PER_MIN" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The final field name 'SEC_PER_MIN' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="20" endline="20" begincolumn="17" endcolumn="24" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem2" class="Time" method="Time" variable="hour" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'hour' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="27" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem2" class="Time" method="Time" variable="minute" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'minute' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="39" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem2" class="Time" method="Time" variable="seconds" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'seconds' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="problem2" class="Time" method="Time" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="31" endline="31" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="problem2" class="Time" method="Time" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="37" endline="37" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="problem2" class="Time" method="Time" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="53" endline="53" begincolumn="25" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem2" class="Time" method="setHour" variable="hour" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'hour' is not assigned and could be declared final
+</violation>
+<violation beginline="58" endline="58" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="problem2" class="Time" method="setHour" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="74" endline="74" begincolumn="27" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem2" class="Time" method="setMinute" variable="minute" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'minute' is not assigned and could be declared final
+</violation>
+<violation beginline="79" endline="79" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="problem2" class="Time" method="setMinute" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="95" endline="95" begincolumn="28" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem2" class="Time" method="setSeconds" variable="seconds" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'seconds' is not assigned and could be declared final
+</violation>
+<violation beginline="100" endline="100" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="problem2" class="Time" method="setSeconds" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<file name="/Users/taeyoonkim/Desktop/NEU/CS5004/Assignment1/src/main/java/problem3/Amount.java">
+<violation beginline="7" endline="7" begincolumn="17" endcolumn="22" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="problem3" class="Amount" variable="dollar" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="8" endline="8" begincolumn="17" endcolumn="20" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="problem3" class="Amount" variable="cent" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="9" endline="9" begincolumn="23" endcolumn="30" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="problem3" class="Amount" variable="CENT_MAX" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="9" endline="9" begincolumn="23" endcolumn="30" rule="FieldNamingConventions" ruleset="Code Style" package="problem3" class="Amount" variable="CENT_MAX" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The final field name 'CENT_MAX' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="16" endline="16" begincolumn="31" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem3" class="Amount" method="Amount" variable="cent" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'cent' is not assigned and could be declared final
+</violation>
+<violation beginline="16" endline="16" begincolumn="19" endcolumn="28" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem3" class="Amount" method="Amount" variable="dollar" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'dollar' is not assigned and could be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="problem3" class="Amount" method="Amount" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<file name="/Users/taeyoonkim/Desktop/NEU/CS5004/Assignment1/src/main/java/problem3/CustomerAccount.java">
+<violation beginline="9" endline="9" begincolumn="24" endcolumn="41" rule="LongVariable" ruleset="Code Style" package="problem3" class="CustomerAccount" variable="customerIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like customerIdentifier
+</violation>
+<violation beginline="9" endline="9" begincolumn="24" endcolumn="41" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="problem3" class="CustomerAccount" variable="customerIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="10" endline="10" begincolumn="20" endcolumn="38" rule="LongVariable" ruleset="Code Style" package="problem3" class="CustomerAccount" variable="customerAcctBalance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like customerAcctBalance
+</violation>
+<violation beginline="10" endline="10" begincolumn="20" endcolumn="38" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="problem3" class="CustomerAccount" variable="customerAcctBalance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="20" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="problem3" class="CustomerAccount" variable="bitcoin" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="12" endline="12" begincolumn="33" endcolumn="50" rule="LongVariable" ruleset="Code Style" package="problem3" class="CustomerAccount" variable="DOLLAR_TO_BTC_RATE" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like DOLLAR_TO_BTC_RATE
+</violation>
+<violation beginline="12" endline="12" begincolumn="54" endcolumn="61" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" package="problem3" class="CustomerAccount" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 0.000025 should separate every third digit with an underscore
+</violation>
+<violation beginline="14" endline="14" begincolumn="23" endcolumn="30" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="problem3" class="CustomerAccount" variable="CENT_MAX" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="14" endline="14" begincolumn="23" endcolumn="30" rule="FieldNamingConventions" ruleset="Code Style" package="problem3" class="CustomerAccount" variable="CENT_MAX" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The final field name 'CENT_MAX' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="22" endline="22" begincolumn="66" endcolumn="84" rule="LongVariable" ruleset="Code Style" package="problem3" class="CustomerAccount" method="CustomerAccount" variable="customerAcctBalance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like customerAcctBalance
+</violation>
+<violation beginline="22" endline="22" begincolumn="39" endcolumn="56" rule="LongVariable" ruleset="Code Style" package="problem3" class="CustomerAccount" method="CustomerAccount" variable="customerIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like customerIdentifier
+</violation>
+<violation beginline="22" endline="22" begincolumn="59" endcolumn="84" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem3" class="CustomerAccount" method="CustomerAccount" variable="customerAcctBalance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'customerAcctBalance' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="28" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem3" class="CustomerAccount" method="CustomerAccount" variable="customerIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'customerIdentifier' is not assigned and could be declared final
+</violation>
+<violation beginline="49" endline="49" begincolumn="27" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem3" class="CustomerAccount" method="deposit" variable="amtToDeposit" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'amtToDeposit' is not assigned and could be declared final
+</violation>
+<violation beginline="66" endline="66" begincolumn="28" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem3" class="CustomerAccount" method="withdraw" variable="amtToWithdraw" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'amtToWithdraw' is not assigned and could be declared final
+</violation>
+<violation beginline="67" endline="67" begincolumn="9" endcolumn="90" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="problem3" class="CustomerAccount" method="withdraw" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'currentBalDollar' could be declared final
+</violation>
+<violation beginline="68" endline="75" begincolumn="13" endcolumn="84" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="problem3" class="CustomerAccount" method="withdraw" variable="currentBalCent" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'currentBalCent' (lines '68'-'75').
+</violation>
+<violation beginline="68" endline="68" begincolumn="9" endcolumn="84" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="problem3" class="CustomerAccount" method="withdraw" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'currentBalCent' could be declared final
+</violation>
+<violation beginline="70" endline="70" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="problem3" class="CustomerAccount" method="withdraw" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="83" endline="83" begincolumn="27" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem3" class="CustomerAccount" method="convert" variable="dollarAmt" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'dollarAmt' is not assigned and could be declared final
+</violation>
+<violation beginline="84" endline="84" begincolumn="9" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="problem3" class="CustomerAccount" method="convert" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'dollarToConvert' could be declared final
+</violation>
+<violation beginline="85" endline="85" begincolumn="9" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="problem3" class="CustomerAccount" method="convert" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'centToConvert' could be declared final
+</violation>
+<violation beginline="86" endline="86" begincolumn="20" endcolumn="55" rule="UselessParentheses" ruleset="Code Style" package="problem3" class="CustomerAccount" method="convert" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/Users/taeyoonkim/Desktop/NEU/CS5004/Assignment1/src/main/java/problem3/Identifier.java">
+<violation beginline="4" endline="4" begincolumn="20" endcolumn="27" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="problem3" class="Identifier" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="5" endline="5" begincolumn="20" endcolumn="30" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="problem3" class="Identifier" variable="yearCreated" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="6" endline="6" begincolumn="20" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="problem3" class="Identifier" variable="country" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="8" endline="8" begincolumn="60" endcolumn="73" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem3" class="Identifier" method="Identifier" variable="country" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'country' is not assigned and could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="23" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem3" class="Identifier" method="Identifier" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'username' is not assigned and could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="40" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="problem3" class="Identifier" method="Identifier" variable="yearCreated" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'yearCreated' is not assigned and could be declared final
+</violation>
+</file>
+</pmd>

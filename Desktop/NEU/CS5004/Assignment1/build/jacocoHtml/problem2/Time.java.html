@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Time.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment1</a> &gt; <a href="index.source.html" class="el_package">problem2</a> &gt; <span class="el_source">Time.java</span></div><h1>Time.java</h1><pre class="source lang-java linenums">package problem2;
+
+/**
+ * This class represent Time. Time has an information of hour, minute, and second
+ */
+public class Time {
+    private int hour;
+    private int minute;
+    private int seconds;
+<span class="fc" id="L10">    private final int HOUR_PER_DAY = 24;</span>
+<span class="fc" id="L11">    private final int MIN_PER_HOUR = 60;</span>
+<span class="fc" id="L12">    private final int SEC_PER_MIN = 60;</span>
+
+    /**
+     * Constructor, creating a Time object that has hour, minute, and seconds.
+     * @param hour - hour, represented as int
+     * @param minute -minute,  represented as int
+     * @param seconds -seconds,  represented as int
+     */
+<span class="fc" id="L20">    public Time(int hour, int minute, int seconds){</span>
+<span class="pc bpc" id="L21" title="2 of 4 branches missed.">        if(0 &lt;= hour &amp;&amp; hour &lt; HOUR_PER_DAY){</span>
+<span class="fc" id="L22">            this.hour = hour;</span>
+        }
+        else {
+<span class="nc" id="L25">            System.out.println(&quot;Invalid hour&quot;);</span>
+        }
+<span class="pc bpc" id="L27" title="2 of 4 branches missed.">        if(0 &lt;= minute &amp;&amp; minute &lt; MIN_PER_HOUR){</span>
+<span class="fc" id="L28">            this.minute = minute;</span>
+        }
+        else {
+<span class="nc" id="L31">            System.out.println(&quot;Invalid minute&quot;);</span>
+        }
+<span class="pc bpc" id="L33" title="2 of 4 branches missed.">        if(0 &lt;= seconds &amp;&amp; seconds &lt; SEC_PER_MIN){</span>
+<span class="fc" id="L34">            this.seconds = seconds;</span>
+        }
+        else {
+<span class="nc" id="L37">            System.out.println(&quot;Invalid second&quot;);</span>
+        }
+<span class="fc" id="L39">    }</span>
+
+    /**
+     * getter for hour
+     * @return hour, as int
+     */
+    public int getHour() {
+<span class="fc" id="L46">        return hour;</span>
+    }
+
+    /**
+     * setter for hour
+     * @param hour - int, hour
+     */
+    public void setHour(int hour) {
+<span class="pc bpc" id="L54" title="2 of 4 branches missed.">        if(0 &lt;= hour &amp;&amp; hour &lt; HOUR_PER_DAY){</span>
+<span class="fc" id="L55">            this.hour = hour;</span>
+        }
+        else {
+<span class="nc" id="L58">            System.out.println(&quot;Invalid hour&quot;);</span>
+        }
+<span class="fc" id="L60">    }</span>
+
+    /**
+     * getter for minute
+     * @return -minute
+     */
+    public int getMinute() {
+<span class="fc" id="L67">        return minute;</span>
+    }
+
+    /**
+     * setter for minute
+     * @param minute - int, minute
+     */
+    public void setMinute(int minute) {
+<span class="pc bpc" id="L75" title="2 of 4 branches missed.">        if(0 &lt;= minute &amp;&amp; minute &lt; MIN_PER_HOUR) {</span>
+<span class="fc" id="L76">            this.minute = minute;</span>
+        }
+        else {
+<span class="nc" id="L79">            System.out.println(&quot;Invalid minute&quot;);</span>
+        }
+<span class="fc" id="L81">    }</span>
+
+    /**
+     * getter for seconds
+     * @return seconds
+     */
+    public int getSeconds() {
+<span class="fc" id="L88">        return seconds;</span>
+    }
+
+    /**
+     * setter for seconds
+     * @param seconds - int, seconds
+     */
+    public void setSeconds(int seconds) {
+<span class="pc bpc" id="L96" title="2 of 4 branches missed.">        if(0 &lt;= seconds &amp;&amp; seconds &lt; SEC_PER_MIN) {</span>
+<span class="fc" id="L97">            this.seconds = seconds;</span>
+        }
+        else {
+<span class="nc" id="L100">            System.out.println(&quot;Invalid seconds&quot;);</span>
+        }
+
+<span class="fc" id="L103">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

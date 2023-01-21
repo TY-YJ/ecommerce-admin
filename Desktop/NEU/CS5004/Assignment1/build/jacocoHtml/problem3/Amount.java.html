@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Amount.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment1</a> &gt; <a href="index.source.html" class="el_package">problem3</a> &gt; <span class="el_source">Amount.java</span></div><h1>Amount.java</h1><pre class="source lang-java linenums">package problem3;
+
+/**
+ *This class represent Amount. Class Amount has information of dollar and cent
+ */
+public class Amount {
+    private int dollar;
+    private int cent;
+<span class="fc" id="L9">    private final int CENT_MAX = 99;</span>
+
+    /**
+     *Constructor, creating a new Amount object that has dollar, and cent
+     * @param dollar -dollar, represented as integer
+     * @param cent - cent, represented as integer
+     */
+<span class="fc" id="L16">    public Amount(int dollar, int cent) {</span>
+<span class="pc bpc" id="L17" title="3 of 6 branches missed.">        if (dollar &lt; 0 || cent &lt; 0 || cent &gt; CENT_MAX) {</span>
+<span class="nc" id="L18">            System.out.println(&quot;Invalid amount&quot;);</span>
+        } else {
+<span class="fc" id="L20">            this.dollar = dollar;</span>
+<span class="fc" id="L21">            this.cent = cent;</span>
+        }
+<span class="fc" id="L23">    }</span>
+
+    /**
+     * getter for dollar
+     * @return dollar, as integer
+     */
+    public int getDollar() {
+<span class="fc" id="L30">        return dollar;</span>
+    }
+
+    /**
+     *getter for cent
+     * @return cent, as integer
+     */
+    public int getCent() {
+<span class="fc" id="L38">        return cent;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

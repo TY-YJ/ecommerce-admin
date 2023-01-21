@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>User.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment1</a> &gt; <a href="index.source.html" class="el_package">problem1</a> &gt; <span class="el_source">User.java</span></div><h1>User.java</h1><pre class="source lang-java linenums">package problem1;
+
+/**
+ * This class represent User. User has information of first name, last name, phone number, email address,
+ * and credential
+ */
+public class User {
+    private String firstName;
+    private String lastName;
+    private String phoneNumber;
+    private String emailAddress;
+    private Credentials credentialPair;
+
+    /**
+     * Constructor, creating a new User object that has the provided firstname, lastname, phone number, email address,
+     * and credential pair.
+     * @param firstName - first name, encoded as String
+     * @param lastName - last name, encoded as String
+     * @param phoneNumber- phone number, encoded as String
+     * @param emailAddress- email address , encoded as String
+     * @param credentialPair- credential pair from class Credentials
+     */
+<span class="fc" id="L23">    public User(String firstName, String lastName, String phoneNumber, String emailAddress, Credentials credentialPair) {</span>
+<span class="fc" id="L24">        this.firstName = firstName;</span>
+<span class="fc" id="L25">        this.lastName = lastName;</span>
+<span class="fc" id="L26">        this.phoneNumber = phoneNumber;</span>
+<span class="fc" id="L27">        this.emailAddress = emailAddress;</span>
+<span class="fc" id="L28">        this.credentialPair = credentialPair;</span>
+<span class="fc" id="L29">    }</span>
+
+    /**
+     * returns the firstname
+     * @return the firstname
+     */
+    public String getFirstName() {
+<span class="fc" id="L36">        return firstName;</span>
+    }
+
+    /**
+     * sets a firstname to the given firstname
+     * @param firstName - String, first name
+     */
+    public void setFirstName(String firstName) {
+<span class="fc" id="L44">        this.firstName = firstName;</span>
+<span class="fc" id="L45">    }</span>
+    /**
+     *returns the lastname
+     * @return the lastname
+     */
+    public String getLastName() {
+<span class="fc" id="L51">        return lastName;</span>
+    }
+
+    /**
+     * sets a lastname to the given last name
+     * @param lastName -String, last name
+     */
+    public void setLastName(String lastName) {
+<span class="fc" id="L59">        this.lastName = lastName;</span>
+<span class="fc" id="L60">    }</span>
+    /**
+     * returns the phone number
+     * @return the phone number
+     */
+    public String getPhoneNumber() {
+<span class="fc" id="L66">        return phoneNumber;</span>
+    }
+
+    /**
+     * sets a phone number to the given phone number
+     * @param phoneNumber -String phone number
+     */
+    public void setPhoneNumber(String phoneNumber) {
+        try {
+<span class="fc" id="L75">            Integer.parseInt(phoneNumber);</span>
+<span class="fc" id="L76">            this.phoneNumber = phoneNumber;</span>
+        }
+<span class="nc" id="L78">        catch(NumberFormatException e){</span>
+<span class="nc" id="L79">            System.out.println(&quot;Phone number should be in numbers&quot;);</span>
+<span class="fc" id="L80">        }</span>
+
+<span class="fc" id="L82">    }</span>
+
+    /**
+     * returns email address
+     * @return email address
+     */
+    public String getEmailAddress() {
+<span class="fc" id="L89">        return emailAddress;</span>
+    }
+
+    /**
+     *  sets an email address to the given email address
+     * @param emailAddress - String email address
+     */
+    public void setEmailAddress(String emailAddress) {
+<span class="fc" id="L97">        this.emailAddress = emailAddress;</span>
+<span class="fc" id="L98">    }</span>
+
+    /**
+     * returns a credential pair
+     * @return a credential pair
+     */
+    public Credentials getCredentialPair() {
+<span class="fc" id="L105">        return credentialPair;</span>
+    }
+
+    /**
+     * sets a credential pair to the given credential pairs
+     * @param credentialPair - Credentials credential pair
+     */
+    public void setCredentialPair(Credentials credentialPair) {
+<span class="fc" id="L113">        this.credentialPair = credentialPair;</span>
+<span class="fc" id="L114">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

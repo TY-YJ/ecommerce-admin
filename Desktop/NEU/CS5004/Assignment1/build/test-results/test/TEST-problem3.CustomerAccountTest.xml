@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="problem3.CustomerAccountTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-01-21T06:24:59" hostname="Taeyoons-MacBook-Pro.local" time="0.002">
+  <properties/>
+  <testcase name="withdraw()" classname="problem3.CustomerAccountTest" time="0.0"/>
+  <testcase name="getCustomerAcctBalance()" classname="problem3.CustomerAccountTest" time="0.001"/>
+  <testcase name="getCustomerIdentifier()" classname="problem3.CustomerAccountTest" time="0.0"/>
+  <testcase name="convert()" classname="problem3.CustomerAccountTest" time="0.0"/>
+  <testcase name="deposit()" classname="problem3.CustomerAccountTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
