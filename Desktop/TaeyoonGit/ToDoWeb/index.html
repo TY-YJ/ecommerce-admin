@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+    <title>ToDo App</title>
+</head>
+
+<body>
+    <section class="background">
+        <div class="content">
+            <h2 class="content-clock" id="clock">00:00:00</h2>
+            <form class=" hidden" id="login-form">
+                <div class="input-box">
+                    <input class="name" required maxlength="15" type="text" placeholder="What is your name? " />
+                    <input class="login-btn" type="submit" value="Log In" />
+                </div>
+
+            </form>
+
+            <h1 id="greeting" class="hidden"></h1>
+
+            <form id="todo-form">
+                <input class="name" id="todo-input" type="text" placeholder="Write a To Do and Press Enter"
+                    onfocus="this.placeholder=''" onblur="this.placeholder='Write a To Do and Press Enter'" required>
+            </form>
+            <ul class="todo" id="todo-list"></ul>
+        </div>
+        <div class="section-quote">
+            <div id="quote">
+                <p class="quote"></p>
+                <p class="author"></p>
+            </div>
+        </div>
+        <div class="weather-info" id="weather">
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+
+</body>
+
+</html>
