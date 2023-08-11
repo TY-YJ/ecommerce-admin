@@ -7,7 +7,7 @@ import { CellAction } from "./cell-action"
 export type CategoryColumn = {
     id: string
     name: string
-    billboardLabel
+    billboardLabel: string
     createdAt: string
 }
 
